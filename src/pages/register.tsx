@@ -1,7 +1,6 @@
 import React from "react";
-import { KeyRound, UserLock, UserRound } from 'lucide-react';
+import { KeyRound, UserRound } from 'lucide-react';
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { registerUser } from "../services/auth";
 
 export function register() {

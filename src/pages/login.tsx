@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import React from "react";
-import { KeyRound, UserLock, LockOpen } from 'lucide-react'
+import { KeyRound, UserLock } from 'lucide-react'
 import { loginUser } from "../services/auth";
 
 export function Login() {

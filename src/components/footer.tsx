@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
         
         {/* Logo / Nome */}
-        <div className="text-1xl font-semibold">
+        <div className="text-1xl font-semibold text-gray-400">
           Meu Projeto © {new Date().getFullYear()}
         </div>
 
@@ -59,7 +59,6 @@ const Footer: React.FC = () => {
             rel="noopener noreferrer"
             className="hover:text-gray-400 transition-colors"
           >
-            
           </a>
         </div>
       </div>

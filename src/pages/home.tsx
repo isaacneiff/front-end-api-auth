@@ -28,7 +28,7 @@ const HomePage: React.FC = () => {
       {/* Hero Section */}
       <section className="h-screen bg-gradient-to-r from-indigo-600 to-purple-600 flex flex-col justify-center items-center text-center px-6">
         <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 animate-fadeIn">
-          Bem-vindo ao Meu Projeto 🚀
+          Bem-vindo ao Meu Projeto 
         </h1>
         <p className="text-lg md:text-xl text-gray-200 max-w-2xl mb-8">
           Uma página moderna, rápida e responsiva usando React + TypeScript + Tailwind.
@@ -56,7 +56,7 @@ const HomePage: React.FC = () => {
           </div>
           <div className="flex justify-center">
             <img
-              src="https://source.unsplash.com/500x400/?technology,design"
+              src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg"
               alt="Sobre"
               className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
             />
@@ -119,11 +119,6 @@ const HomePage: React.FC = () => {
           </button>
         </form>
       </section>
-
-      {/* Footer */}
-      <footer className="py-6 text-center bg-gray-900 text-gray-400">
-        © {new Date().getFullYear()} Meu Projeto. Todos os direitos reservados.
-      </footer>
     </div>
   );
 };

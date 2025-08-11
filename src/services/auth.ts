@@ -12,11 +12,11 @@ export interface LoginData {
 }
 
 export async function registerUser(data: RegisterData) {
-  const res = await api.post("/auth/register", data);
+  const res = await api.post("/register", data);
   return res.data;
 }
 
 export async function loginUser(data: LoginData) {
-  const res = await api.post("/auth/login", data);
+  const res = await api.post("/login", data);
   return res.data;
 }

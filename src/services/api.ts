@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://back-end-auth-token-production.up.railway.app/auth/login", // backend rodando
+  baseURL: "https://back-end-auth-token-production.up.railway.app/auth/", // backend rodando
   headers: {
     "Content-Type": "application/json",
   },
